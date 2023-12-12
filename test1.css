@@ -1,0 +1,186 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 60px;
+  background-color: #e9dedc;
+}
+
+.section {
+  padding: 20px 0px;
+}
+
+.sidebar-container {
+  margin-left: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-item::marker {
+  color: #6d9bf5;
+}
+
+.list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757d80;
+}
+
+.text-location {
+  margin: 5px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-content {
+  padding: 50px 88px 88px 88px;
+}
+
+.title {
+  margin-top: 0px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.a-title {
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.info-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.user-photo {
+  margin-top: 40px;
+  width: 370px;
+  height: 450px;
+}
+
+.user-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 12px 0;
+}
+
+.photo-progect {
+  width: 300px;
+}
+
+.text {
+  margin: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 525px;
+}
+
+.text-portfolio {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 300px;
+  padding: 10px 20px;
+}
+
+.contacts-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  margin-right: 8px;
+}
+
+.phone {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757d80;
+}
+
+.phone:hover,
+.phone:focus {
+  color: #2979ff;
+}
+
+.email {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757d80;
+}
+
+.email:hover,
+.email:focus {
+  color: #2979ff;
+}
+
+.github {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757d80;
+}
+
+.github:hover,
+.github:focus {
+  color: #2979ff;
+}
+
+.experience-text {
+  color: #6d9bf5;
+}
+
+.work-duties {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
