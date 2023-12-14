@@ -1,186 +1,98 @@
 body {
-  font-family: "Montserrat", sans-serif;
-  margin: 0px;
-  padding: 60px;
+  font-family: "Roboto", sans-serif;
   background-color: #e9dedc;
 }
 
-.section {
-  padding: 20px 0px;
-}
-
-.sidebar-container {
-  margin-left: 10px;
-}
-
-.list {
-  list-style: none;
-  padding: 0px;
-}
-
-.list-item::marker {
-  color: #6d9bf5;
-}
-
-.list-item {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #757d80;
-}
-
-.text-location {
-  margin: 5px 0px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a8a8a8;
-}
-
 .container {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.main-content {
-  padding: 50px 88px 88px 88px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
-  margin-top: 0px;
   text-align: center;
-  font-style: normal;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #000000;
 }
 
-.a-title {
-  margin-top: 0px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 17px;
+.modal-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-form {
+  width: 440px;
+  padding: 40px;
+  min-height: 150px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  background-color: #d3cfce;
+}
+
+.input-container {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
+  width: 80%;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid rgba(46, 47, 66, 0.2);
+  border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #ffffff;
+  outline: transparent;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 0 0 40px 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #000000;
 }
 
-.info-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 27px;
-  color: #000000;
+.button {
+  display: block;
+  margin: auto;
+  border: none;
+  min-width: 210px;
+  height: 36px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background: #913c29;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-photo {
-  margin-top: 40px;
-  width: 370px;
-  height: 450px;
-}
-
-.user-name {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 55px;
-  color: #000000;
-  margin: 0 0 12px 0;
-}
-
-.photo-progect {
-  width: 300px;
+.button:hover,
+.button:focus {
+  background-color: #ab442e;
 }
 
 .text {
-  margin: 0px;
-  font-style: normal;
+  padding: 0 12px;
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
-  width: 525px;
-}
-
-.text-portfolio {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
-  width: 300px;
-  padding: 10px 20px;
-}
-
-.contacts-type {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 24px;
-  color: #161d2a;
-  margin-right: 8px;
-}
-
-.phone {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #757d80;
-}
-
-.phone:hover,
-.phone:focus {
-  color: #2979ff;
-}
-
-.email {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #757d80;
-}
-
-.email:hover,
-.email:focus {
-  color: #2979ff;
-}
-
-.github {
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #757d80;
-}
-
-.github:hover,
-.github:focus {
-  color: #2979ff;
-}
-
-.experience-text {
-  color: #6d9bf5;
-}
-
-.work-duties {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
-}
-
-.portfolio-container {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #000000;
 }

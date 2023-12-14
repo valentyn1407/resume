@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700@display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -12,102 +14,68 @@
   </head>
   <body>
     <div class="container">
-      <main class="main-content">
-        <section class="section" class="user-information">
-          <h1 class="user-name">Koval Maksym</h1>
-          <h3 class="a-title">Back-End Developer</h3>
-          <p class="text">
-            Hello! I am a beginner Back-End Developer with no work experience
-            yet, I'm currently a 3rd year student Kherson State University.I did
-            some tests in Python and started learning Django.My goal is to
-            become one of the best programmers who create websites and
-            applications, and in the future masterpieces of computer games. I
-            want to become a part of a team that moves towards the goal no
-            matter what.
-          </p>
-        </section>
-        <section class="section" class="progects">
-          <h2 class="title">Portfolio</h2>
-          <ul class="list">
-            <li>
-              <div class="portfolio-container">
-                <img class="photo-progect" src="./img/brdm.png" alt="" />
-                <p class="text-portfolio">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-                  possimus ducimus aliquid ea vel provident accusantium, veniam
-                  eaque fugiat, incidunt voluptatum atque odio quia beatae quae.
-                  Sunt voluptas qui doloremque!
-                </p>
-              </div>
-            </li>
-            <li>
-              <div class="portfolio-container">
-                <img class="photo-progect" src="./img/ua.png" alt="" />
-                <p class="text-portfolio">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-                  possimus ducimus aliquid ea vel provident accusantium, veniam
-                  eaque fugiat, incidunt voluptatum atque odio quia beatae quae.
-                  Sunt voluptas qui doloremque!
-                </p>
-              </div>
-            </li>
-          </ul>
-        </section>
-        <section class="section" class="experience">
-          <h2 class="title">Work Experience</h2>
-          <h3 class="a-title">
-            Senior operator
-            <span class="experience-text">LG Energy Solution</span>
-            <p class="text-location">September 2019 - up to now | Wroclaw</p>
-          </h3>
-          <ul>
-            <li class="work-duties">Quality control</li>
-            <li class="work-duties">Monitoring of work equipment</li>
-            <li class="work-duties">
-              Maintenance of the machine during the process
-            </li>
-          </ul>
-        </section>
-      </main>
-      <aside class="sidebar">
-        <img class="user-photo" src="./img/maksimka.jpg" alt="" />
-        <div class="sidebar-container">
-          <h3 class="info-title">Contacts</h3>
-          <ul class="list">
-            <li>
-              <span class="contacts-type">Phone:</span
-              ><a class="phone" href="tel:+48886753356">+48886753356</a>
-            </li>
-            <li>
-              <span class="contacts-type">Email:</span
-              ><a class="email" href="mailto:sples.zero@gmail.com"
-                >sples.zero@gmail.com</a
-              >
-            </li>
-
-            <li>
-              <span class="contacts-type">GitHub:</span
-              ><a class="github" href="https://github.com/Spless01">Spless01</a>
-            </li>
-          </ul>
-          <h3 class="info-title">Tech Skills</h3>
-          <ul>
-            <li class="list-item">HTML5</li>
-            <li class="list-item">CSS3</li>
-            <li class="list-item">Python</li>
-            <li class="list-item">Django</li>
-            <li class="list-item">Photoshop</li>
-          </ul>
-          <h3 class="info-title">Soft Skills</h3>
-          <ul>
-            <li class="list-item">Scrum</li>
-            <li class="list-item">Agile</li>
-            <li class="list-item">GTD</li>
-            <li class="list-item">Teamwork</li>
-          </ul>
+      <h1 class="title">Welcome to our website!!!</h1>
+      <p class="text">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+        voluptates nobis odio tempore quasi quia, dicta reiciendis, tempora
+        laboriosam minima rem, consequuntur a distinctio minus impedit quam
+        aperiam vel in! Dolore eligendi harum facere! Labore maiores accusamus
+        quis, velit neque nam voluptas maxime atque alias sunt quaerat nesciunt?
+        Dolores, excepturi. Labore quos dolorum eveniet nostrum omnis cumque
+        neque voluptatem corporis. Perferendis nobis ab quo ex dolores ducimus
+        nemo ratione molestiae quibusdam illo voluptatum recusandae quasi
+        consequuntur magnam saepe cum labore vel blanditiis, amet veritatis id
+        explicabo laboriosam dignissimos incidunt! Dicta! Ipsam laborum officiis
+        distinctio eum qui iste quos, voluptates odit veritatis. Tenetur earum
+        libero qui, esse, in odit architecto, nisi suscipit adipisci reiciendis
+        quo similique?
+      </p>
+      <div class="modal-container">
+        <div class="container-form">
+          <p class="subtitle">Sign In</p>
+          <div class="input-container">
+            <input class="input" type="email" placeholder="Email" />
+          </div>
+          <div class="input-container">
+            <input class="input" type="password" placeholder="Password" />
+          </div>
+          <button class="button">Login</button>
         </div>
-      </aside>
+
+        <div class="container-form">
+          <p class="subtitle">Sign Up</p>
+          <div class="input-container">
+            <input class="input" type="email" placeholder="Email" required />
+          </div>
+          <div class="input-container">
+            <input class="input" type="password" placeholder="Password" />
+          </div>
+          <div class="input-container">
+            <input
+              class="input"
+              type="password"
+              placeholder="Password confirmation"
+            />
+          </div>
+          <button type="button" class="button">Login</button>
+        </div>
+      </div>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus
+        nulla maxime! Nisi doloremque hic molestias minima, consequatur culpa
+        exercitationem aliquam, itaque unde ducimus ea omnis ratione! Quasi,
+        incidunt quibusdam! Sint aliquam dignissimos iure similique neque
+        voluptas ex vero consequuntur! Culpa, incidunt! Ullam quos ea facilis,
+        quam quis asperiores, odit in suscipit, voluptatem ipsa aliquid.
+        Architecto ad tenetur laboriosam aliquid. Sit laudantium perspiciatis
+        placeat, ab qui doloremque aliquid dolorum ipsum odio autem excepturi
+        repellat eaque, impedit enim porro aut dicta dolore? Quaerat esse
+        suscipit molestiae numquam eligendi placeat in at! Veniam maxime
+        voluptatem voluptates molestias molestiae sed rem perferendis dolore
+        quasi accusantium. Sequi veritatis debitis illo temporibus deserunt
+        minus obcaecati doloribus modi laudantium accusamus, cum voluptatibus
+        labore quas sit quis?
+      </p>
     </div>
-    <script src="./js/script.js"></script>
   </body>
 </html>
